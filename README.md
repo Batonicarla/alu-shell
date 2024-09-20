@@ -1,1 +1,1 @@
-this is my shell & basics project
+this is my shells & basics project
