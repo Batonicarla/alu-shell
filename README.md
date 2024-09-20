@@ -1,1 +1,1 @@
-task 0 .where am I
+this is my shell & basics project
