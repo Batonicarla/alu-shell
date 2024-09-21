@@ -1,13 +1,2 @@
 #!/bin/bash
-
-# Check if there are any files ending with ~
-shopt -s nullglob  # Enable nullglob so that *~ expands to nothing if there are no matches
-files=( *~ )       # Create an array with matching files
-
-if [ ${#files[@]} -gt 0 ]; then
-    rm *~          # Delete files ending with ~
-    echo "Deleted all files ending with ~"
-else
-    echo "No files ending with ~ found"
-fi
-
+rm *~
